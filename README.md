@@ -11,11 +11,15 @@ Para usar y editar la aplicación, recomendable el Visual Studio Code, u otro ed
 Antes de iniciar se debe instalar Git: https://www.youtube.com/watch?v=lhSnPXBqnP4
 
 Abrir el Visual Studio Code y en extensiones buscar "GitLens" e iniciar su instalación.
-Con ello podremos gestionar el repositorio: como para empezar las opciones de enviar commit's y ver toda la historia de modificación
+Con ello podremos gestionar el repositorio: como para empezar las opciones de enviar commit's y ver toda la historia de modificación.
 
 ![1](https://user-images.githubusercontent.com/39451593/50381263-a496b000-0650-11e9-9fd9-9866a2a7f9ba.png)
 
-Say what the step will be
+Una vez hecho esto, comenzar con la clonación del proyecto: https://www.youtube.com/watch?v=NTY5VELbCWI
+- Recomendable clonar el repositorio dentro del "htdocs" para editar con el xampp.
+
+Al editar y hacer los cambios debe de Poner un nombre o mensaje al "commit" que se enviara para hacer la modificación, y para enviar debe dirigirse a "GitLens", donde retocará el botón de "Push Repositories"
+
 
 ```
 Give the example
