@@ -11,7 +11,7 @@
 	define('PATH_CONTROLLERS', 'app/controllers/');
 
 	//define('PATH_VIEWS','app/views');
-	define('PATH_VIEWS', '/esis.library.unjbg/app/views/');
+	define('PATH_VIEWS', '/CIIS-2019/app/views/');
 	define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 	//Para el nombre del folder principal
