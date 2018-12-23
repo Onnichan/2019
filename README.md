@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Título
 
 Aplicación WEB CIIS XX - En desarrollo
 Diseñado con Modelo Vista Controlador [MVC]
