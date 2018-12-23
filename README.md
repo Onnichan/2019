@@ -8,7 +8,10 @@ Para usar y editar la aplicación, recomendable el Visual Studio Code, u otro ed
 
 ### Instalación
 
+Antes de iniciar se debe instalar Git: https://www.youtube.com/watch?v=lhSnPXBqnP4
+
 Abrir el Visual Studio Code y en extensiones buscar "GitLens" e iniciar su instalación.
+Con ello podremos gestionar el repositorio: como para empezar las opciones de enviar commit's y ver toda la historia de modificación
 
 ![1](https://user-images.githubusercontent.com/39451593/50381263-a496b000-0650-11e9-9fd9-9866a2a7f9ba.png)
 
