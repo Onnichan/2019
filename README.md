@@ -22,7 +22,8 @@ Una vez hecho esto, comenzar con la clonación del proyecto: https://www.youtube
 Al editar y hacer los cambios debe de Poner un nombre o mensaje al "commit" que se enviara para hacer la modificación, y para enviar debe dirigirse a "GitLens", donde retocará el botón de "Push Repositories"
 
 <p align="center">
-  ![2](https://user-images.githubusercontent.com/39451593/50381344-ce50d680-0652-11e9-804e-368722b5a9e9.png)
+    <img src ="https://user-images.githubusercontent.com/39451593/50381344-ce50d680-0652-11e9-804e-368722b5a9e9.png" /></div>
+  
 </p>
 
 
