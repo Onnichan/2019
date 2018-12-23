@@ -1,22 +1,16 @@
-# Project Title
+# Título del Proyecto
 
-One Paragraph of project description goes here
+Aplicación WEB CIIS XX - En desarrollo
 
-## Getting Started
+## Empezando el desarrollo
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Para usar y editar la aplicación, recomendable el Visual Studio Code, u otro editor.
 
-### Prerequisites
+### Instalación
 
-What things you need to install the software and how to install them
+Abrir el Visual Studio Code y en extensiones buscar "GitLens" e iniciar su instalación.
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
+![1](https://user-images.githubusercontent.com/39451593/50381263-a496b000-0650-11e9-9fd9-9866a2a7f9ba.png)
 
 Say what the step will be
 
