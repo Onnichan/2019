@@ -9,18 +9,11 @@
 		}
 
 		public function Mostrar_texto(){
-			$query = "SELECT * FROM `v_mostrarlibroportada`";
-			$res = $this->db->query($query);
-			return $res;
+			
 		}
 
-		public function MostrarDatosUsuario($idUsuario){
-			$query = "SELECT ident_usuario, t.id_tipousuario, t.nombre_tipo, u.nombre_usuario, u.apellido_usuario, u.genero FROM usuario u
-						INNER JOIN tipo_usuario t
-						ON t.id_tipousuario = u.id_tipousuario
-						WHERE u.ident_usuario = '".$idUsuario."'";
-			$res = $this->db->query($query);
-			return $res;
+		public function MostrarDatosUsuario(){
+			
 		}
 		/*
 		Eliminar todo este archivo, fue de prueba

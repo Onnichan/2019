@@ -31,34 +31,34 @@
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="rsc/1/image/ico/unjbg.ico" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="src/1/image/ico/unjbg.ico" type="image/vnd.microsoft.icon">
 
   <title>ESIS UNJBG | Librería ESIS Universidad Nacional Jorge Basadre Grohmann</title>
 
   <!-- ............................... HEADER AND PORTADA ..................................... -->
-  <link rel="stylesheet" href="rsc/1/css/class_navbar-_unjbg.css" media="all">
-  <link rel="stylesheet" href="rsc/1/css/class_subdropmenu_unjbg.css" media="all">
-  <link rel="stylesheet" href="rsc/1/css/cont_portada_unjbg.css" media="all">
+  <link rel="stylesheet" href="src/1/css/class_navbar-_unjbg.css" media="all">
+  <link rel="stylesheet" href="src/1/css/class_subdropmenu_unjbg.css" media="all">
+  <link rel="stylesheet" href="src/1/css/cont_portada_unjbg.css" media="all">
 
   <!-- ................................ CSS .............................................. -->
-  <link rel="text/css" href="rsc/1/css/filters_unjbg.css" media="all">
-  <link rel="text/css" href="rsc/1/css/text_unjbg.css" media="all">
+  <link rel="text/css" href="src/1/css/filters_unjbg.css" media="all">
+  <link rel="text/css" href="src/1/css/text_unjbg.css" media="all">
 
-  <link rel="stylesheet" href="rsc/1/css/css_information_1.css" media="all">
-  <link rel="stylesheet" href="rsc/1/css/css_information_2.css" media="all">
+  <link rel="stylesheet" href="src/1/css/css_information_1.css" media="all">
+  <link rel="stylesheet" href="src/1/css/css_information_2.css" media="all">
 
-  <link rel="text/css" href="rsc/1/css/footer_unjbg.css" media="all">
-  <link rel="text/css" href="rsc/1/css/footer_2_unjbg.css" media="all">
-  <link type="text/css" rel="stylesheet" href="rsc/1/css/footer_3_unjbg.css" media="all">
-  <link rel="text/css" href="rsc/1/css/css_adicionales.css" media="all">
+  <link rel="text/css" href="src/1/css/footer_unjbg.css" media="all">
+  <link rel="text/css" href="src/1/css/footer_2_unjbg.css" media="all">
+  <link type="text/css" rel="stylesheet" href="src/1/css/footer_3_unjbg.css" media="all">
+  <link rel="text/css" href="src/1/css/css_adicionales.css" media="all">
   <style type="text/css" media="all">
-    @import url('rsc/1/css/screen.css?pguuaf');
-    @import url("rsc/1/css/additional.css?pguuaf");
+    @import url('src/1/css/screen.css?pguuaf');
+    @import url("src/1/css/additional.css?pguuaf");
   </style>
 
   <!-- .................................. ANIMATIONS ..................................... -->
 
-  <script async="" src="rsc/1/js/gtm.js.descarga"></script>
+  <script async="" src="src/1/js/gtm.js.descarga"></script>
 
   <script type="text/javascript">
     var _sf_startpt = (new Date()).getTime()
