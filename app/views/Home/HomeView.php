@@ -87,7 +87,7 @@
         </button>
         <?php echo '<?xml version="1.0" encoding="UTF-8"?>' ?>
         <a class="navbar-brand" href="http://www.unjbg.edu.pe/portal/" title="Universidad Nacional Jorge Basadre Grohmann" style="padding-top: 8px">
-          <img src="rsc/1/image/logo_unjbg.svg" type="image/svg+xml" style="width: 153px;">
+          <img src="src/1/image/logo_unjbg.svg" type="image/svg+xml" style="width: 153px;">
         </a>
 
       </div>
@@ -196,8 +196,7 @@
         <ul class="nav navbar-nav navbar-right">
           
           <?php
-            $Usuario=$getUsuario->fetch_array();
-            if ($idUsuario == '0') {
+            
               echo '
                     <a id="schedule" class="navbar-brand" href="http://localhost:8080/esis.library.unjbg/" title="ESIS UNJBG Library" style="padding-top: 10px;">
                       <img style="width: 40px; height: 40px; max-width: 40px;" src="rsc/1/image/Time_Machine_96px.svg">
@@ -237,53 +236,7 @@
                     </li>
 
                     ';
-            } else {
-              echo '
-                    <a id="schedule" class="navbar-brand" href="http://localhost:8080/esis.library.unjbg/" title="ESIS UNJBG Library" style="padding-top: 10px; padding-right: 5px;padding-left: 0px;">
-                      <img style="width: 40px; height: 40px; max-width: 40px;" src="rsc/1/image/Time_Machine_96px.svg">
-                    </a>      
-                    <li class="menu-item dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-top: 20px; padding-bottom: 20px; font-size: 1.2em;">
-                        ';
-                        if($Usuario['genero'] == 0){
-                          echo 'Bienvenido ' .$Usuario['nombre_usuario'];
-                        } else {
-                          echo 'Bienvenida ' .$Usuario['nombre_usuario']; 
-                        }
-                      echo '<b class="caret"></b>
-                      </a>
-                      <ul class="dropdown-menu h1_dropmenu_unjbg" style="width: 211.988636px; border-radius: 0%;">
-                        <li>
-                          <a class="mh_subdropmenu_unjbg" href="/esis.library.unjbg/Login">
-                            <img class="h1_displayicon_unjbg" src="rsc/1/image/Menu_Identification_Documents.png" style="width: 25px !important;">
-                            <span class="dropdown-link-text">Perfil</span>
-                          </a>
-
-                        </li>
-                        <li class="divider h1_divider_unjbg"></li>
-                        <li>
-                          <a class="mh_subdropmenu_unjbg" href="#">
-                            <img class="h1_displayicon_unjbg" src="rsc/1/image/Menu_Pin.png" style="width: 25px !important;">
-                            <span class="dropdown-link-text">Ítem guardados</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="mh_subdropmenu_unjbg" href="#">
-                            <img class="h1_displayicon_unjbg" src="rsc/1/image/Menu_Time_Machine.png" style="width: 25px !important;">
-                            <span class="dropdown-link-text">Historial de busqueda</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="mh_subdropmenu_unjbg" href="/esis.library.unjbg/Home/salir">
-                            <img class="h1_displayicon_unjbg" src="rsc/1/image/Exit.png" style="width: 25px !important;">
-                            <span class="dropdown-link-text">Salir</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    ';
-            }
+            
           
           ?>
           
@@ -574,8 +527,7 @@
 
             <?php 
               
-              while($row=$getTexto->fetch_array()){
-                if($row['Nuevo']==true){
+              
                   echo '
                     <div class="course-item-outer span_4 col" style="height: 521px;">
                       <div class="course-item-inner">
@@ -612,43 +564,9 @@
                     </div>
                     <!--/.course-item-outer-->                  
                   ';
-                }
-                else{
-                  echo '
-                    <div class="course-item-outer span_4 col" style="height: 521px;">
-                      <div class="course-item-inner">
-                        <div class="">
-                          <a href="#" class=""><img class="" src="data:image/jpg;base64,'.base64_encode($row['foto_portada']).'" alt="'.$row['nombre_texto'].'"></a>
-                        </div><!-- / end course-image-wrapper -->
-
-                        <a href="https://online-learning.harvard.edu/courses/?category[]=3" class="category-link" data-icon="chevron-right"
-                          data-iconpos="right">'.$row['Materia'].'</a>
-                        <h3 class="course-title"><a href="https://online-learning.harvard.edu/course/crafting-thesis-proposal-software-engineering-and-digital-media-design-tutorial?category[]=1&amp;sort_by=date_added"
-                            class="course_title_h">'.$row['nombre_texto'].'</a></h3>
-
-                        <div class="course-brief">
-                          <a href="https://online-learning.harvard.edu/course/crafting-thesis-proposal-software-engineering-and-digital-media-design-tutorial?category[]=1&amp;sort_by=date_added"
-                            class="course_summary_h">
-                            <p>Ejemplo.</p>
-                          </a>
-                        </div>
-
-
-                        <div class="course-details-outer">
-                          <div class="course-details-inner">
-                            <span class="price"><a href="https://online-learning.harvard.edu/course/crafting-thesis-proposal-software-engineering-and-digital-media-design-tutorial?category[]=1&amp;sort_by=date_added"
-                              class="course_cost_h">Reservar ahora</a></span>
-                            <span class="location"><a href="https://online-learning.harvard.edu/course/crafting-thesis-proposal-software-engineering-and-digital-media-design-tutorial?category[]=1&amp;sort_by=date_added"
-                              class="course_platform_h">Añadir a favoritos</a></span>
-                          </div>
-                        </div>
-                      </div>
-                      <!--/.course-item-inner-->
-                    </div>
-                    <!--/.course-item-outer-->                  
-                  ';
-                }
-              }
+                
+    
+    
             
             ?>
 
@@ -671,7 +589,7 @@
           <div style="display:none" id="courses_offset">12</div>
           <div style="display:none" id="no_more_courses">No mas libros</div>
           <div id="more_course_loading" style="display:none; margin: 15px auto 0px; text-align: center; vertical-align: middle; width: 300px;">
-            <img border="0" src="rsc/1/Courses _ Harvard Online Learning Portal_files/loading-gif-animation.gif" style="width:36px">
+            <img border="0" src="src/1/Courses _ Harvard Online Learning Portal_files/loading-gif-animation.gif" style="width:36px">
           </div>
         </div><!-- / end courses utility nav -->
 
@@ -1103,11 +1021,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
 
-  <script type="text/javascript" src="rsc/1/js/app.built.js.descarga"></script>
-  <script type="text/javascript" src="rsc/1/js/hdlp.js.descarga"></script>
+  <script type="text/javascript" src="src/1/js/app.built.js.descarga"></script>
+  <script type="text/javascript" src="src/1/js/hdlp.js.descarga"></script>
 
 
-  <script language="javascript" type="text/javascript" src="rsc/1/js/chartbeat.js.descarga"></script>
+  <script language="javascript" type="text/javascript" src="src/1/js/chartbeat.js.descarga"></script>
 
 </body>
 
