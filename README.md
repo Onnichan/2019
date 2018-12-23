@@ -22,63 +22,30 @@ Una vez hecho esto, comenzar con la clonación del proyecto: https://www.youtube
 Al editar y hacer los cambios debe de Poner un nombre o mensaje al "commit" que se enviara para hacer la modificación, y para enviar debe dirigirse a "GitLens", donde retocará el botón de "Push Repositories"
 
 <p align="center">
-    <img src ="https://user-images.githubusercontent.com/39451593/50381344-ce50d680-0652-11e9-804e-368722b5a9e9.png" /></div>
-  
+   <img src ="https://user-images.githubusercontent.com/39451593/50381344-ce50d680-0652-11e9-804e-368722b5a9e9.png" /></div>
 </p>
 
+## Contenido del proyecto
 
-End with an example of getting some data out of the system or using it for a little demo
+### Carpetas y Subcarpetas del área de trabajo
 
-## Running the tests
+Ubicación de las carpetas y subcarpetas del proyecto: Html-Php, Estilos y JavaScript
 
-Explain how to run the automated tests for this system
+* app
+  * controllers
+  * models
+  * views
+* src
+  * css
+  * js
 
-### Break down into end to end tests
+## Autores
 
-Explain what these tests test and why
+* **Leandro R.** - *Creador del repositorio - Diseño y codificación*
+* **Jhon A.** - *Diseño y codificación*
+* **Walter H.** - *Diseño y codificación*
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Lista de contribuyentes quienes participa en este proyecto:
+* **Yulisa Q.**
+* **Marco A.**
+* **Richard P.**
