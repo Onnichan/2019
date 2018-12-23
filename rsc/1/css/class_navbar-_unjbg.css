@@ -1,0 +1,19 @@
+/* #cab {
+    margin-bottom: 0px !important;
+    height: 62px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+ERROR -------------------------------------- */  
+.navbar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0% !important;
+    border-color: rgb(255, 255, 255);
+    font-size: .9375rem !important;
+    font-family: Arial, sans-serif;
+}
+
+.li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

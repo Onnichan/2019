@@ -1,0 +1,616 @@
+.c_container-_unjbg {
+    position: relative !important;
+    text-align: center !important;
+    color: white !important;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-top {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-esis {
+    width: 575px;
+    height: 80px;
+    background: url('../image/logo_esis.svg') no-repeat;
+    background-size: 100%;
+    border-radius: 0%;
+}
+
+.text-area-panel {
+    border-radius: 0% !important;
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    font-family: 'Times New Roman';
+    font-size: 140%;
+    font-weight: normal;
+    float: left;
+    padding-left: 15px;
+    width: 671px;
+    height: 30px;
+}
+
+.text-area-panel::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #737382;
+    opacity: 1;
+    /* Firefox */
+}
+
+.text-area-panel::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #737382;
+}
+
+.text-area-panel::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #737382;
+}
+
+.search-text-panel {
+    width: 785px;
+}
+
+
+.button-area-panel {
+    border-radius: 0% !important;
+    background-color: #215898;
+    border-color: #215898;
+    width: 55px;
+    height: 44px;
+    float: right;
+}
+
+.displayicon-btn-area_unjbg {
+    display: inline-block;
+    margin-top: -3px;
+    margin-bottom: auto;
+    padding-top: 3px;
+    padding-left: 0px;
+    cursor: pointer;
+    height: auto;
+    width: 95%;
+}
+
+.texto-esis-_unjbg {
+    font-size: 19px;
+    text-align: left;
+    color: #e2e2e2;
+    bottom: 20px;
+    left: 66px;
+}
+
+
+@media only screen and (min-width:1440px) {
+    img.logo-esis {
+        width: 600px;
+        height: 85px;
+        background: url('../image/logo_esis.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 90px !important;
+    }
+
+    .search-text-panel {
+        padding-top: 35px !important;
+        width: 850px;
+    }
+
+    .text-area-panel {
+        font-size: 125%;
+        padding-left: 12px;
+        width: 747px;
+        height: 25px;
+    }
+
+    .button-area-panel {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 47px;
+        height: 39px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 140%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 20px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 20px;
+        left: 66px;
+    }
+
+    
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1439px) {
+    img.logo-esis {
+        width: 575px;
+        height: 80px;
+        background: url('../image/logo_esis.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+    }
+
+    a.centered-top {
+        top: 75px !important;
+    }
+
+    .search-text-panel {
+        padding-top: 40px !important;
+        width: 785px;
+    }
+
+    .text-area-panel {
+        font-size: 140%;
+        padding-left: 15px;
+        width: 671px;
+        height: 30px;
+    }
+
+    .button-area-panel {
+        width: 55px;
+        height: 44px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 3px;
+        padding-left: 0px;
+        width: 95%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 18px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 20px;
+        left: 66px;
+    }
+}
+
+@media only screen and (min-width : 980px) and (max-width : 1023px) {
+    img.logo-esis {
+        width: 420px;
+        height: 60px;
+        background: url('../image/logo_esis.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 65px !important;
+    }
+
+    .search-text-panel {
+        padding-top: 40px !important;
+        width: 586px;
+    }
+
+    .text-area-panel {
+        font-size: 90%;
+        padding-left: 10px;
+        width: 500px;
+        height: 15px;
+    }
+
+    .button-area-panel {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 90%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 12px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 20px;
+        left: 66px;
+    }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 980px) {
+    img.logo-esis {
+        width: 380px;
+        height: 60px;
+        background: url('../image/logo_esis.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 55px !important;
+    }
+
+    .search-text-panel {
+        padding-top: 40px !important;
+        width: 500px;
+    }
+
+    .text-area-panel {
+        font-size: 90%;
+        padding-left: 10px;
+        width: 414px;
+        height: 13px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 32px;
+        height: 27px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 85%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 12px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 650px) and (max-width : 799px) {
+    img.logo-esis {
+        width: 250px;
+        height: 60px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 50px !important;
+    }
+
+    .search-text-panel {
+        top: 105px !important;
+        padding-top: 15px !important;
+        width: 500px;
+    }
+
+    .text-area-panel {
+        font-size: 100%;
+        padding-left: 10px;
+        width: 409px;
+        height: 18px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 37px;
+        height: 32px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 75%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 649px) {
+    img.logo-esis {
+        width: 225px;
+        height: 60px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 40px !important;
+    }
+
+    .search-text-panel {
+        top: 90px !important;
+        padding-top: 15px !important;
+        width: 420px;
+    }
+
+    .text-area-panel {
+        font-size: 100%;
+        padding-left: 10px;
+        width: 329px;
+        height: 18px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 37px;
+        height: 32px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 75%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 450px) and (max-width : 499px) {
+    img.logo-esis {
+        width: 200px;
+        height: 50px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 35px !important;
+    }
+
+    .search-text-panel {
+        top: 80px !important;
+        padding-top: 15px !important;
+        width: 390px;
+    }
+
+    .text-area-panel {
+        font-size: 100%;
+        padding-left: 10px;
+        width: 299px;
+        height: 14px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 37px;
+        height: 28px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 65%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 380px) and (max-width : 449px) {
+    img.logo-esis {
+        width: 200px;
+        height: 45px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 30px !important;
+    }
+
+    .search-text-panel {
+        top: 72px !important;
+        padding-top: 15px !important;
+        width: 390px;
+    }
+
+    .text-area-panel {
+        font-size: 100%;
+        padding-left: 10px;
+        width: 299px;
+        height: 14px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 37px;
+        height: 28px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 65%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 360px) and (max-width : 379px) {
+    img.logo-esis {
+        width: 200px;
+        height: 45px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 30px !important;
+    }
+
+    .search-text-panel {
+        top: 72px !important;
+        padding-top: 15px !important;
+        width: 360px;
+    }
+
+    .text-area-panel {
+        font-size: 100%;
+        padding-left: 10px;
+        width: 269px;
+        height: 14px;
+    }
+
+    .button-area-panel {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 37px;
+        height: 28px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 65%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 359px) {
+    img.logo-esis {
+        width: 140px;
+        height: 40px;
+        background: url('../image/logo_esis_small.svg') no-repeat;
+        background-size: 100%;
+        border-radius: 0%;
+        margin-top: 0px;
+    }
+
+    a.centered-top {
+        top: 30px !important;
+    }
+
+    .search-text-panel {
+        top: 60px !important;
+        padding-top: 15px !important;
+        width: 300px;
+    }
+
+    .text-area-panel {
+        font-size: 90%;
+        padding-left: 10px;
+        width: 216px;
+        height: 8px;
+    }
+
+    .button-area-panel {
+        padding-top: 0px;
+        padding-bottom: 1px;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 30px;
+        height: 22px;
+    }
+
+    .displayicon-btn-area_unjbg {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 65%;
+    }
+
+    .texto-esis-_unjbg {
+        font-size: 0px;
+        text-align: left;
+        color: #e2e2e2;
+        bottom: 10px;
+        left: 36px;
+    }
+}

@@ -1,0 +1,89 @@
+// JavaScript Document
+
+$(document).ready(function() { 	
+
+	$(document).delegate('#sort_by', 'change', function (e)	
+	{
+		e.stopPropagation();
+		$('#filter_form').submit();
+	});
+	
+	$(document).delegate('.filter-by .filter-field .label', 'click', function (e)	
+	{
+		e.stopPropagation();
+		
+		if ( !$('html').hasClass('lte-ie8') ) {
+			var checkbox = $(this).parent().find('input');
+			if (  checkbox.is(':checked') ) {
+				checkbox.removeAttr("checked"); 
+			}
+			else {
+				checkbox.attr("checked", "checked"); 
+			} 
+		}
+
+		$('#filter_form').submit();
+	});
+	
+	$(document).delegate('.lte-ie8 .filter-by .filter-field input', 'click', function (e)	
+	{
+		e.stopPropagation();
+		/*
+		var checkbox = $(this);
+		if (  checkbox.is(':checked') ) {
+			checkbox.removeAttr("checked"); 
+		}
+		else {
+			checkbox.attr("checked", "checked"); 
+		}
+		*/
+
+		$('#filter_form').submit();
+	});
+	
+	/*
+	if ( $('body').hasClass('equalHeight-active') ) {
+		alert('yes');
+	}
+	*/
+
+});
+
+function get_more_courses() {
+	
+	jQuery("#more_course_loading").show();
+	var querystring='';
+	if ( window.location.href.indexOf('?')>0 ) {
+		querystring = window.location.href.slice(window.location.href.indexOf('?') + 1);
+		//querystring = querystring.replace('[]','%5B%5D');
+	}
+
+	var request = $.ajax({
+		type: 'GET',
+		url: '/ajax/more_courses/',
+		data: querystring+'&offset='+$('#courses_offset').html(),
+		dataType: 'json',
+		success: function(data) {
+			$("#more_course_loading").hide();	
+			if ( data.cnt > 0 ) {
+				$(".courses-container").append(data.html);
+				$("#courses_offset").html(data.offset);
+				if ( data.cnt < 12 ) {
+					$("#more-courses").hide();
+				}
+				$(window).trigger('resize');
+			}
+			else {
+				$("#more-courses").hide();
+			}
+		}
+	});
+	
+	/*
+	request.fail(function( jqXHR, textStatus ) {
+		alert( "Request failed: " + textStatus + jqXHR.status + jqXHR.responseText);
+		});
+	*/
+	//_gaq.push(['_trackEvent', 'ViewMoreChannels', 'Click', 'ViewMore_'+click_index.toString(), '']);
+
+}
