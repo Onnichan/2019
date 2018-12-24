@@ -1007,6 +1007,45 @@ main#home section#newsletter ul li:hover a {
     color: #fff
 }
 
+
+main#home section#infoinscription {
+    background: linear-gradient(45deg, #b20000 0%, #d40051 100%);
+    padding: 35px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em
+}
+
+main#home section#infoinscription h3 {
+    color: #fff
+}
+
+main#home section#infoinscription fieldset {
+    width: auto
+}
+
+main#home section#infoinscription ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none
+}
+
+main#home section#infoinscription ul li a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    padding: 18px 30%;
+    font-size: 1.5em;
+    display: block
+}
+
+main#home section#infoinscription ul li:hover a {
+    color: #fff
+}
+
+
 main#home section#location {
     background: #fff;
     min-height: 500px;

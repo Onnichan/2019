@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(0030)https://t3chfest.uc3m.es/2018/ -->
+<!-- saved from url=(01)https:// -->
 <html lang="es">
 
 <head>
@@ -91,47 +91,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>CIIS XX</title>
-	<meta name="keywords" content="T3chFest, t3chfest, techfest, patrocina, tecnología, conferencia, informática, hackathon, nuevas tecnologias, conference, technology, university, universidad">
-	<meta name="description" content="Feria de informática y nuevas tecnologías en la Universidad Carlos III de Madrid. Aprende lo último en tecnología e innovación, demuestra lo que sabes en nuestros concursos y hackathon. 1 y 2 marzo 2018.">
+	<meta name="keywords" content="CIISXX, ciisxx, postmaster, ciis turismo, feria tecnologica, tacna ciis, congreso internacional, concursos, conference, technology, university, universidad">
+	<meta name="description" content="El XX Congreso internacional de Informática y Sistemas brindando todo una gama de conocimiento con ponentes de la mejor excelencia 
+					posible de distintos países con distinto temas de la actualidad de la informatica, fecha del congreso Noviembre 2019.">
 
 	<script src="src/js/hm.js"></script>
-	<script type="application/ld+json">
-		{
-			"@context": "http://www.schema.org",
-			"@type": "Event",
-			"name": "T3chFest 2018",
-			"alternateName": "T3chFest",
-			"image": "https://t3chfest.uc3m.es/2018/static/assets/media/social/t3f2018-social.jpg?q=1503968963",
-			"url": "https://t3chfest.uc3m.es/",
-			"sameAs": [
-				"https://twitter.com/T3chFest",
-				"https://www.facebook.com/T3chFest/"
-			],
-			"description": "Feria de informática y nuevas tecnologías en la Universidad Carlos III de Madrid. Aprende lo último en tecnología e innovación, demuestra lo que sabes en nuestros concursos y hackathon. 1 y 2 marzo 2018.",
-			"startDate": "2018-03-01T08:30",
-			"endDate": "2018-03-02T20:00",
-			"location": {
-				"@type": "Place",
-				"name": "Auditorio Universidad Carlos III de Madrid",
-				"address": {
-					"@type": "PostalAddress",
-					"streetAddress": "Avenida de la Universidad, 30",
-					"addressLocality": "Leganés",
-					"addressRegion": "Madrid",
-					"postalCode": "28911",
-					"addressCountry": "ES"
-				}
-			},
-			"offers": {
-				"@type": "Offer",
-				"description": "Entrada gratuita",
-				"price": "0",
-				"priceCurrency": "EUR",
-				"url": "https://www.eventbrite.es/e/registro-t3chfest-2018-41644815765"
-			}
-		}
-	</script>
-
 	
 	<meta name="theme-color" content="#529CE0">
 	<meta name="msapplication-navbutton-color" content="#005DB2">
@@ -160,11 +124,9 @@
 	</style>
 	<script type="text/javascript" charset="UTF-8" src="src/js/onion.js"></script>
 	<script type="text/javascript" charset="UTF-8" src="src/js/stats.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/ViewportInfoService.GetViewportInfo"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/f.txt"></script>
+	
 	<script type="text/javascript" charset="UTF-8" src="src/js/controls.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/AuthenticationService.Authenticate"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/QuotaService.RecordEvent"></script>
+	
 </head>
 
 <body style="">
@@ -346,6 +308,18 @@
 				<i class="fa fa-camera"></i>
 				Ver más fotos
 			</a>
+		</section>
+
+		<section id="infoinscription">
+			<div class="wrapper">
+				<h3>Inscríbase al ciis xx</h3>
+				<p>
+					<a style="color:#fff;" target="_blank">
+						Este evento comenzará en noviembre del 2019 <br>
+						para más información ingrese <a href="#">aquí</a> o llamenos al <i class="fa fa-phone"></i>+51 1234567894
+					</a>
+				</p>
+			</div>
 		</section>
 
 		<section id="location">
