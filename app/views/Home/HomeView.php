@@ -33,7 +33,7 @@
 			display: block
 		}
 	</style>
-	<link type="text/css" rel="stylesheet" href="./T3chFest 2018_files/css">
+	<link type="text/css" rel="stylesheet" href="src/css/css">
 	<style type="text/css">
 		.gm-ui-hover-effect {
 			opacity: .6
@@ -90,29 +90,11 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>T3chFest</title>
+	<title>CIIS XX</title>
 	<meta name="keywords" content="T3chFest, t3chfest, techfest, patrocina, tecnología, conferencia, informática, hackathon, nuevas tecnologias, conference, technology, university, universidad">
 	<meta name="description" content="Feria de informática y nuevas tecnologías en la Universidad Carlos III de Madrid. Aprende lo último en tecnología e innovación, demuestra lo que sabes en nuestros concursos y hackathon. 1 y 2 marzo 2018.">
 
-	<link rel="alternate" href="https://t3chfest.uc3m.es/2018/?lang=en" hreflang="en">
-	<link rel="alternate" href="https://t3chfest.uc3m.es/2018/?lang=es" hreflang="es">
-	<link rel="alternate" href="https://t3chfest.uc3m.es/2018/" hreflang="x-default">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="T3chFest">
-	<meta property="og:description" content="Feria de informática y nuevas tecnologías en la Universidad Carlos III de Madrid. Aprende lo último en tecnología e innovación, demuestra lo que sabes en nuestros concursos y hackathon. 1 y 2 marzo 2018.">
-	<meta property="og:image" content="https://t3chfest.uc3m.es/2018/static/assets/media/social/t3f2018-social.jpg?q=1503968963">
-	<meta property="og:image:height" content="630">
-	<meta property="og:image:width" content="1200">
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@T3chFest">
-	<meta name="twitter:title" content="T3chFest">
-	<meta name="twitter:description" content="Feria de informática y nuevas tecnologías en la Universidad Carlos III de Madrid. Aprende lo último en tecnología e innovación, demuestra lo que sabes en nuestros concursos y hackathon. 1 y 2 marzo 2018.">
-	<meta name="twitter:image" content="https://t3chfest.uc3m.es/2018/static/assets/media/social/t3f2018-social.jpg?q=1503968963">
-
-	<script src="./T3chFest 2018_files/hm.js.descarga"></script>
-	<script async="" src="./T3chFest 2018_files/analytics.js.descarga"></script>
+	<script src="src/js/hm.js"></script>
 	<script type="application/ld+json">
 		{
 			"@context": "http://www.schema.org",
@@ -150,63 +132,22 @@
 		}
 	</script>
 
-	<!--  METADATA FOR HACKATHON -->
-	<script type="application/ld+json">
-		{
-			"@context": "http://www.schema.org",
-			"@type": "Event",
-			"name": "Hackathon T3chFest 2018",
-			"image": "https://t3chfest.uc3m.es/static/assets/media/social/t3f2018-social.png",
-			"url": "https://t3chfest.uc3m.es/",
-			"sameAs": [
-				"https://twitter.com/T3chFest",
-				"https://www.facebook.com/T3chFest/"
-			],
-			"description": "Concurso por equipos en el que durante todo un sábado tienen que desarrollar un proyecto.",
-			"startDate": "2018-02-24T09:00",
-			"endDate": "2018-02-24T21:00",
-			"location": {
-				"@type": "Place",
-				"name": "La Nave",
-				"address": {
-					"@type": "PostalAddress",
-					"streetAddress": "Calle Cifuentes, 5",
-					"addressLocality": "Madrid",
-					"addressRegion": "Madrid",
-					"postalCode": "28021",
-					"addressCountry": "ES"
-				}
-			}
-		}
-	</script>
-
+	
 	<meta name="theme-color" content="#529CE0">
 	<meta name="msapplication-navbutton-color" content="#005DB2">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#005DB2">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
 
-	<link rel="shortcut icon" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-72.png?q=1502477862">
-	<link rel="apple-touch-icon" sizes="32x32" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-32.png?q=1502477862">
-	<link rel="apple-touch-icon" sizes="72x72" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-72.png?q=1502477862">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-180.png?q=1502477862">
-	<link rel="icon" type="image/png" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-16.png?q=1502477862"
-	 sizes="16x16">
-	<link rel="icon" type="image/png" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-32.png?q=1502477862"
-	 sizes="32x32">
-	<link rel="icon" type="image/png" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-72.png?q=1502477862"
-	 sizes="72x72">
-	<link rel="icon" type="image/png" href="https://t3chfest.uc3m.es/2018/static/assets/media/icons/icon-180.png?q=1502477862"
-	 sizes="180x180">
+	<link rel="shortcut icon" href="src/assets/media/image/icon.png">
+	
+	<link rel="stylesheet" type="text/css" href="src/css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/font-awesome.min.css">
 
-
-	<link rel="stylesheet" type="text/css" href="./T3chFest 2018_files/main.min.css">
-	<link rel="stylesheet" type="text/css" href="./T3chFest 2018_files/font-awesome.min.css">
-
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/common.js.descarga"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/util.js.descarga"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/map.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/marker.js.descarga"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/common.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/util.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/map.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/marker.js"></script>
 	<style type="text/css">
 		.gm-style {
 			font: 400 11px Roboto, Arial, sans-serif;
@@ -217,18 +158,18 @@
 			max-width: none;
 		}
 	</style>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/onion.js.descarga"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/stats.js.descarga"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/ViewportInfoService.GetViewportInfo"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/f.txt"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/controls.js.descarga"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/AuthenticationService.Authenticate"></script>
-	<script type="text/javascript" charset="UTF-8" src="./T3chFest 2018_files/QuotaService.RecordEvent"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/onion.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/stats.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/ViewportInfoService.GetViewportInfo"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/f.txt"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/js/controls.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/AuthenticationService.Authenticate"></script>
+	<script type="text/javascript" charset="UTF-8" src="src/QuotaService.RecordEvent"></script>
 </head>
 
 <body style="">
 	<nav id="main-nav">
-		<a href="#" id="logo"><img src="./assets/media/image/ciistacna.svg" alt="T3chFest"></a>
+		<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="T3chFest"></a>
 
 		<input type="checkbox" id="responsive-status-menu" name="resposive-status-menu">
 		<label for="responsive-status-menu" class="responsive-toggle-menu">
@@ -266,7 +207,7 @@
 
 	<header id="home">
 		<div class="wrapper">
-			<img src="./T3chFest 2018_files/ciisxx_color.svg" style="width: 50%" alt="T3chFest">
+			<img src="src/assets/media/image/ciisxx_color.svg" style="width: 50%" alt="T3chFest">
 			<h1>noviembre 2019</h1>
 			<h2>Auditorio Universidad Jorge Basadre Grohmann</h2>
 		</div>
@@ -305,35 +246,35 @@
 	<main id="home">
 		<section id="empresas" class="resizable">
 
-			<a href="#" style="width: 6.75751%;"> <img src="./T3chFest 2018_files/bbva.png" alt="BBVA"> </a>
+			<a href="#" style="width: 6.75751%;"> <img src="src/assets/media/image/bbva.png" alt="BBVA"> </a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/autentia.png" alt="Autentia">
+			<a href="#"> <img src="src/assets/media/image/autentia.png" alt="Autentia">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/airbus.png" alt="Airbus">
+			<a href="#"> <img src="src/assets/media/image/airbus.png" alt="Airbus">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/paradigma.png" alt="Paradigma">
+			<a href="#"> <img src="src/assets/media/image/paradigma.png" alt="Paradigma">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/redhat.png" alt="Red Hat">
+			<a href="#"> <img src="src/assets/media/image/redhat.png" alt="Red Hat">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/google.png" alt="Google">
+			<a href="#"> <img src="src/assets/media/image/google.png" alt="Google">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/profile.png" alt="Profile">
+			<a href="#"> <img src="src/assets/media/image/profile.png" alt="Profile">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/opensistemas.png" alt="Open Sistemas">
+			<a href="#"> <img src="src/assets/media/image/opensistemas.png" alt="Open Sistemas">
 			</a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/sogeti.png" alt="Sogeti">
+			<a href="#"> <img src="src/assets/media/image/sogeti.png" alt="Sogeti">
 			</a>
 
-			<a href="#" style="width: 6.75751%;"> <img src="./T3chFest 2018_files/k2.png" alt="K2"> </a>
+			<a href="#" style="width: 6.75751%;"> <img src="src/assets/media/image/k2.png" alt="K2"> </a>
 
-			<a href="#"> <img src="./T3chFest 2018_files/plainconcepts.png" alt="Plain Concepts">
+			<a href="#"> <img src="src/assets/media/image/plainconcepts.png" alt="Plain Concepts">
 			</a>
 
 		</section>
@@ -384,23 +325,23 @@
 		</section>
 
 		<section id="photos">
-			<img src="./T3chFest 2018_files/home1.jpg">
-			<img src="./T3chFest 2018_files/home2.jpg">
-			<img src="./T3chFest 2018_files/home3.jpg">
+			<img src="src/assets/media/image/home1.jpg">
+			<img src="src/assets/media/image/home2.jpg">
+			<img src="src/assets/media/image/home3.jpg">
 
-			<img class="big" src="./T3chFest 2018_files/home4.jpg">
-			<img class="big" src="./T3chFest 2018_files/home5.jpg">
+			<img class="big" src="src/assets/media/image/home4.jpg">
+			<img class="big" src="src/assets/media/image/home5.jpg">
 
-			<img src="./T3chFest 2018_files/home6.jpg">
-			<img src="./T3chFest 2018_files/home7.jpg">
-			<img src="./T3chFest 2018_files/home8.jpg">
+			<img src="src/assets/media/image/home6.jpg">
+			<img src="src/assets/media/image/home7.jpg">
+			<img src="src/assets/media/image/home8.jpg">
 
-			<img class="big" src="./T3chFest 2018_files/home9.jpg">
-			<img class="big" src="./T3chFest 2018_files/home10.jpg">
+			<img class="big" src="src/assets/media/image/home9.jpg">
+			<img class="big" src="src/assets/media/image/home10.jpg">
 
-			<img class="small responsive-hide" src="./T3chFest 2018_files/home11.jpg">
-			<img class="small responsive-hide" src="./T3chFest 2018_files/home12.jpg">
-			<img class="small responsive-hide" src="./T3chFest 2018_files/home13.jpg">
+			<img class="small responsive-hide" src="src/assets/media/image/home11.jpg">
+			<img class="small responsive-hide" src="src/assets/media/image/home12.jpg">
+			<img class="small responsive-hide" src="src/assets/media/image/home13.jpg">
 			<a class="small responsive-hide" href="https://www.flickr.com/photos/160684070@N02/albums" target="_blank">
 				<i class="fa fa-camera"></i>
 				Ver más fotos
@@ -423,7 +364,7 @@
 	<footer id="main-footer">
 		<div class="wrapper">
 			<article>
-				<a href="https://t3chfest.uc3m.es/2018/" id="logo"><img src="./assets/media/image/ciistacna.svg" style="width: 60%" alt="T3chFest"></a>
+				<a href="https://t3chfest.uc3m.es/2018/" id="logo"><img src="src/assets/media/image/ciistacna.svg" style="width: 60%" alt="T3chFest"></a>
 				<p>Somos la XXV promoción de informática y sistemas organizando el XX Congreso internacional de Informática y 
 					Sistemas con el fin de brindarle todo una gama de conocimiento con ponentes de la mejor excelencia 
 					posible de distintos países con distinto temas de la actualidad de la informatica.</p>
@@ -457,9 +398,9 @@
 		</div>
 	</footer>
 
-	<script src="./T3chFest 2018_files/jquery-1.10.1.min.js.descarga"></script>
-	<script src="./T3chFest 2018_files/js"></script>
-	<script src="./T3chFest 2018_files/home.js"></script>
+	<script src="src/js/jquery-1.10.1.min.js"></script>
+	<script src="src/js/js"></script>
+	<script src="src/js/home.js"></script>
 </body>
 
 </html>
