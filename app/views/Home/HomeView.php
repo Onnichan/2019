@@ -343,13 +343,13 @@
 					Sistemas con el fin de brindarle todo una gama de conocimiento con ponentes de la mejor excelencia 
 					posible de distintos países con distinto temas de la actualidad de la informatica.</p>
 				<ul>
-					<li><a href="#" target="_blank" title="Blog de T3chFest"><i class="fa fa-rss"></i></a></li>
-					<li><a href="#" target="_blank" title="Linkedin de T3chFest"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank" title="Instagram de T3chFest"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#" target="_blank" title="YouTube de T3chFest"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#" target="_blank" title="Canal de Telegram de T3chFest"><i class="fa fa-telegram"></i></a></li>
-					<li><a href="#" target="_blank" title="Facebook de T3chFest"><i class="fa fa-facebook-official"></i></a></li>
-					<li><a href="#" target="_blank" title="Twitter de T3chFest"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" target="_blank" title="Blog de CIIS"><i class="fa fa-rss"></i></a></li>
+					<li><a href="#" target="_blank" title="Linkedin de CIIS"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" target="_blank" title="Instagram de CIIS"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#" target="_blank" title="YouTube de CIIS"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="#" target="_blank" title="Canal de Telegram de CIIS"><i class="fa fa-telegram"></i></a></li>
+					<li><a href="#" target="_blank" title="Facebook de CIIS"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a href="#" target="_blank" title="Twitter de CIIS"><i class="fa fa-twitter"></i></a></li>
 				</ul>
 			</article>
 			<nav id="footer-nav">
