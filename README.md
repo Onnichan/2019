@@ -37,8 +37,11 @@ Ubicación de las carpetas y subcarpetas del proyecto: Html-Php, Estilos y JavaS
   * views
 * src
   * assets
+    * media
+      * home
+      * image
   * css
-  * image
+  * fonts
   * js
 
 ## Autores
