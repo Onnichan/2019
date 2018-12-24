@@ -157,7 +157,7 @@
 				<li class="item with-submenu">
 					<a href="#">Anteriores</a>
 					<ul class="submenu">
-						<li class="subitem"><a href="/2018" rel="nofollow">CIIS XIX</a></li>
+						<li class="subitem"><a href="http://ciistacna.com/" rel="nofollow">CIIS XIX</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -187,13 +187,13 @@
 					<i class="fa fa-circle-o"></i>
 				</a>
 
-				<a class="small m15" href="https://t3chfest.uc3m.es/2018/hackathon/">
+				<a class="small m15" href="#">
 					<p>septiembre - octubre 2019</p>
 					<h3>Inscripciones CIIS XX</h3>
 					<i class="fa fa-circle-o"></i>
 				</a>
 
-				<a class="m5" href="https://t3chfest2018.eventbrite.es/?aff=web" target="_blank">
+				<a class="m5" href="#" target="_blank">
 					<p>noviembre 2019</p>
 					<h3>CIISXX y Eventos</h3>
 					<i class="fa fa-circle-o"></i>
@@ -338,7 +338,7 @@
 	<footer id="main-footer">
 		<div class="wrapper">
 			<article>
-				<a href="https://t3chfest.uc3m.es/2018/" id="logo"><img src="src/assets/media/image/ciistacna.svg" style="width: 60%" alt="T3chFest"></a>
+				<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" style="width: 60%" alt="T3chFest"></a>
 				<p>Somos la XXV promoción de informática y sistemas organizando el XX Congreso internacional de Informática y 
 					Sistemas con el fin de brindarle todo una gama de conocimiento con ponentes de la mejor excelencia 
 					posible de distintos países con distinto temas de la actualidad de la informatica.</p>
