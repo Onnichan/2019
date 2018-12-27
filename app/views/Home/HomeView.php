@@ -90,7 +90,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>CIIS XX</title>
+	<title>XX Congreso Internacional de Informatica y Sistemas 2019</title>
 	<meta name="keywords" content="CIISXX, ciisxx, postmaster, ciis turismo, feria tecnologica, tacna ciis, congreso internacional, concursos, conference, technology, university, universidad">
 	<meta name="description" content="El XX Congreso internacional de Informática y Sistemas brindando todo una gama de conocimiento con ponentes de la mejor excelencia 
 					posible de distintos países con distinto temas de la actualidad de la informatica, fecha del congreso Noviembre 2019.">
@@ -131,7 +131,7 @@
 
 <body style="">
 	<nav id="main-nav">
-		<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="T3chFest"></a>
+		<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="ciistacna"></a>
 
 		<input type="checkbox" id="responsive-status-menu" name="resposive-status-menu">
 		<label for="responsive-status-menu" class="responsive-toggle-menu">
@@ -150,19 +150,13 @@
 						<li class="subitem"><a href="#">Talleres</a></li>
 						<li class="subitem"><a href="#">Feria tecnológica</a></li>
 						<li class="subitem"><a href="#">Concursos</a></li>
-						<li class="subitem"><a href="#">Turismo</a></li>
 					</ul>
 				</li>
 				<li class="item"><a href="#">Organizadores</a></li>
-				<li class="item with-submenu">
-					<a href="#">Anteriores</a>
-					<ul class="submenu">
-						<li class="subitem"><a href="http://ciistacna.com/" rel="nofollow">CIIS XIX</a></li>
-					</ul>
-				</li>
+				
 			</ul>
 
-			<a href="#" id="call-to-action" target="_blank"><i class="fa fa-facebook-square"></i> &nbsp; Síguenos en facebook</a>
+			<a href="https://www.facebook.com/ciistacna/" id="call-to-action" target="_blank"><i class="fa fa-facebook-square"></i> &nbsp; Síguenos en facebook</a>
 		</div>
 	</nav>
 
@@ -176,31 +170,37 @@
 		<article id="timeline">
 			<div id="items">
 				<a class="m15" href="#">
-					<p>Julio 2019</p>
-					<h3>Inscripciones Postmaster</h3>
+					<p>14 de Enero 2019</p>
+					<h3>Talleres de verano</h3>
 					<i class="fa fa-circle-o"></i>
 				</a>
 
-				<a class="m20" href="#">
-					<p>Agosto 2019</p>
+				<a class="small m10" href="#">
+					<p>Próximamente</p>
+					<h3>Inscripsiones PostMaster</h3>
+					<i class="fa fa-circle-o"></i>
+				</a>
+
+				<a class="m10" href="#">
+					<p>Próximamente</p>
 					<h3>PostMaster</h3>
 					<i class="fa fa-circle-o"></i>
 				</a>
 
 				<a class="small m15" href="#">
-					<p>septiembre - octubre 2019</p>
+					<p>Próximamente</p>
 					<h3>Inscripciones CIIS XX</h3>
 					<i class="fa fa-circle-o"></i>
 				</a>
 
 				<a class="m5" href="#" target="_blank">
 					<p>noviembre 2019</p>
-					<h3>CIISXX y Eventos</h3>
+					<h3>CIIS XX y Eventos</h3>
 					<i class="fa fa-circle-o"></i>
 				</a>
 			</div>
 			<div id="progress">
-				<div id="fill" style="width: 5%;"></div>
+				<div id="fill" style="width: 25%;"></div>
 			</div>
 		</article>
 	</header>
@@ -272,16 +272,14 @@
 		<section id="newsletter">
 			<div class="wrapper">
 				<h3>Entérate de todo</h3>
-				<p><a style="color:#fff;" href="#" target="_blank">Suscríbete a nuestra
-						newsletter</a></p>
+				<p><a style="color:#fff;" target="_blank">Síguenos a nuestras redes sociales</a></p>
 				<ul>
-					<li><a href="#" target="_blank" title="Blog de T3chFest"><i class="fa fa-rss"></i></a></li>
-					<li><a href="#" target="_blank" title="Linkedin de T3chFest"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank" title="Instagram de T3chFest"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#" target="_blank" title="YouTube de T3chFest"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#" target="_blank" title="Canal de Telegram de T3chFest"><i class="fa fa-telegram"></i></a></li>
-					<li><a href="#" target="_blank" title="Facebook de T3chFest"><i class="fa fa-facebook-official"></i></a></li>
-					<li><a href="#" target="_blank" title="Twitter de T3chFest"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" target="_blank" title="Flickr de CIIS XX"><i class="fa fa-flickr"></i></a></li>
+					<li><a href="#" target="_blank" title="Linkedin de CIIS XX"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" target="_blank" title="Instagram de CIIS XX"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#" target="_blank" title="YouTube de CIIS XX"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="#" target="_blank" title="Facebook de CIIS XX"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a href="#" target="_blank" title="Twitter de CIIS XX"><i class="fa fa-twitter"></i></a></li>
 				</ul>
 			</div>
 		</section>
@@ -329,8 +327,7 @@
 					<p class="address">Avenida Miraflores, S/N <br> 23000 (Tacna-Perú)</p>
 				</a>
 			</div>
-			<div id="map" style="position: relative; overflow: hidden;">
-			</div>
+			<div id="map" style="position: relative; overflow: hidden;"></div>
 		</section>
 	</main>
 
@@ -343,11 +340,10 @@
 					Sistemas con el fin de brindarle todo una gama de conocimiento con ponentes de la mejor excelencia 
 					posible de distintos países con distinto temas de la actualidad de la informatica.</p>
 				<ul>
-					<li><a href="#" target="_blank" title="Blog de CIIS"><i class="fa fa-rss"></i></a></li>
+					<li><a href="#" target="_blank" title="Flickr de CIIS"><i class="fa fa-flickr"></i></a></li>
 					<li><a href="#" target="_blank" title="Linkedin de CIIS"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="#" target="_blank" title="Instagram de CIIS"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="#" target="_blank" title="YouTube de CIIS"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#" target="_blank" title="Canal de Telegram de CIIS"><i class="fa fa-telegram"></i></a></li>
 					<li><a href="#" target="_blank" title="Facebook de CIIS"><i class="fa fa-facebook-official"></i></a></li>
 					<li><a href="#" target="_blank" title="Twitter de CIIS"><i class="fa fa-twitter"></i></a></li>
 				</ul>

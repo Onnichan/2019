@@ -4822,6 +4822,10 @@ header#home article#timeline div#items a.m15 {
     margin-left: 15%
 }
 
+header#home article#timeline div#items a.m10 {
+    margin-left: 10%
+}
+
 header#home article#timeline div#items a.m5 {
     margin-left: 5%
 }

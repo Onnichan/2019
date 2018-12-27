@@ -26,7 +26,7 @@
 	define('HOST', 'localhost');
 	define('USER', 'root');
 	define('PASS', '');
-	define('DB', 'bd_biblioteca');
+	define('DB', 'bd_ciisxx');
 
 	define('ERROR_REPORTING_LEVEL', -1);
 ?>

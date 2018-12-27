@@ -1,11 +1,9 @@
 <?php 
-	require ROOT . "/esis.library.unjbg/app/models/Home/HomeModel.php";
-	require ROOT . "/esis.library.unjbg/system/libs/Session.php";
+	require ROOT . "/CIIS-2019/app/models/Home/HomeModel.php";
+	require ROOT . "/CIIS-2019/system/libs/Session.php";
 
 	class HomeController extends Controller
 	{
-
-		
 
 		public function __construct()
 		{
@@ -27,7 +25,7 @@
 
 		public function salir(){
 			
-			header("Location: /esis.library.unjbg/");
+			header("Location: /CIIS-2019/");
 		}
 	}
 
