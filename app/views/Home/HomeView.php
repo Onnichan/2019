@@ -1,5 +1,5 @@
 <?php
-
+	$habilitar = false;
 ?>
 
 <!DOCTYPE html>
@@ -130,36 +130,8 @@
 </head>
 
 <body style="">
-	<nav id="main-nav">
-		<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="ciistacna"></a>
-
-		<input type="checkbox" id="responsive-status-menu" name="resposive-status-menu">
-		<label for="responsive-status-menu" class="responsive-toggle-menu">
-			<span class="icon-toggle"></span>
-		</label>
-
-		<div class="responsive-menu">
-			<ul class="menu">
-				<li class="item"><a href="#">Programa</a></li>
-				<li class="item"><a href="#">Ponentes</a></li>
-				<li class="item"><a href="#">Patrocinadores</a></li>
-				<li class="item with-submenu">
-					<a href="#">Eventos</a>
-					<ul class="submenu">
-						<li class="subitem"><a href="#">PostMaster</a></li>
-						<li class="subitem"><a href="#">Talleres</a></li>
-						<li class="subitem"><a href="#">Feria tecnológica</a></li>
-						<li class="subitem"><a href="#">Concursos</a></li>
-					</ul>
-				</li>
-				<li class="item"><a href="#">Organizadores</a></li>
-				
-			</ul>
-
-			<a href="https://www.facebook.com/ciistacna/" id="call-to-action" target="_blank"><i class="fa fa-facebook-square"></i> &nbsp; Síguenos en facebook</a>
-		</div>
-	</nav>
-
+	
+	<?php require(ROOT . '/' . PATH_VIEWS . 'head.php'); ?>	
 
 	<header id="home">
 		<div class="wrapper">
@@ -169,7 +141,7 @@
 		</div>
 		<article id="timeline">
 			<div id="items">
-				<a class="m15" href="#">
+				<a class="m15" href="<?= FOLDER_PATH . '/courses' ?>">
 					<p>14 de Enero 2019</p>
 					<h3>Talleres de verano</h3>
 					<i class="fa fa-circle-o"></i>
@@ -206,7 +178,11 @@
 	</header>
 
 	<main id="home">
-		<section id="empresas" class="resizable">
+
+		<?php 
+			if($habilitar == true){
+				echo '
+				<section id="empresas" class="resizable">
 
 			<a href="#" style="width: 6.75751%;"> <img src="src/assets/media/image/bbva.png" alt="BBVA"> </a>
 
@@ -240,31 +216,45 @@
 			</a>
 
 		</section>
+				';
+			}
+		?>
 
 		<section id="past">
 			<div class="wrapper">
-				<h2>En la edición de 2018...</h2>
+				<h2>Nuestra edición de 2019...</h2>
 				<div id="content">
 					<article id="video">
 						<div class="videoWrapper">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/aS5bgHWPZdM" frameborder="0" allowfullscreen=""></iframe>
 						</div>
 					</article>
-					<article id="figures">
-						<p>
-							<i class="fa fa-users"></i>
-							+400 <b>asistentes</b>
-						</p>
-						<p>
-							<i class="fa fa-briefcase"></i>
-							10 <b>empresas</b>
-						</p>
-						<p>
-							<i class="fa fa-commenting"></i>
-							+10 <b>charlas</b>
-						</p>
-						
+					<article id="video">
+						<div class="videoWrapper">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/aS5bgHWPZdM" frameborder="0" allowfullscreen=""></iframe>
+						</div>
 					</article>
+					<?php 
+						if($habilitar == true) {
+							echo '
+							<article id="figures">
+								<p>
+									<i class="fa fa-users"></i>
+									+400 <b>asistentes</b>
+								</p>
+								<p>
+									<i class="fa fa-briefcase"></i>
+									10 <b>empresas</b>
+								</p>
+								<p>
+									<i class="fa fa-commenting"></i>
+									+10 <b>charlas</b>
+								</p>
+							</article>
+							';
+						}
+					?>
+					
 				</div>
 			</div>
 		</section>
@@ -274,12 +264,12 @@
 				<h3>Entérate de todo</h3>
 				<p><a style="color:#fff;" target="_blank">Síguenos a nuestras redes sociales</a></p>
 				<ul>
-					<li><a href="#" target="_blank" title="Flickr de CIIS XX"><i class="fa fa-flickr"></i></a></li>
+					<li><a href="https://www.flickr.com/photos/160684070@N02/albums" target="_blank" title="Flickr de CIIS XX"><i class="fa fa-flickr"></i></a></li>
 					<li><a href="#" target="_blank" title="Linkedin de CIIS XX"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank" title="Instagram de CIIS XX"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#" target="_blank" title="YouTube de CIIS XX"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#" target="_blank" title="Facebook de CIIS XX"><i class="fa fa-facebook-official"></i></a></li>
-					<li><a href="#" target="_blank" title="Twitter de CIIS XX"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/xx_ciis" target="_blank" title="Instagram de CIIS XX"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.youtube.com/user/ciistacna" target="_blank" title="YouTube de CIIS XX"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="https://www.facebook.com/ciistacna" target="_blank" title="Facebook de CIIS XX"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a href="https://twitter.com/ciistacna" target="_blank" title="Twitter de CIIS XX"><i class="fa fa-twitter"></i></a></li>
 				</ul>
 			</div>
 		</section>
@@ -332,41 +322,7 @@
 	</main>
 
 
-	<footer id="main-footer">
-		<div class="wrapper">
-			<article>
-				<a href="#" id="logo"><img src="src/assets/media/image/ciistacna.svg" style="width: 60%" alt="T3chFest"></a>
-				<p>Somos la XXV promoción de informática y sistemas organizando el XX Congreso internacional de Informática y 
-					Sistemas con el fin de brindarle todo una gama de conocimiento con ponentes de la mejor excelencia 
-					posible de distintos países con distinto temas de la actualidad de la informatica.</p>
-				<ul>
-					<li><a href="#" target="_blank" title="Flickr de CIIS"><i class="fa fa-flickr"></i></a></li>
-					<li><a href="#" target="_blank" title="Linkedin de CIIS"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank" title="Instagram de CIIS"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#" target="_blank" title="YouTube de CIIS"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#" target="_blank" title="Facebook de CIIS"><i class="fa fa-facebook-official"></i></a></li>
-					<li><a href="#" target="_blank" title="Twitter de CIIS"><i class="fa fa-twitter"></i></a></li>
-				</ul>
-			</article>
-			<nav id="footer-nav">
-				<ul>
-					<li><a href="#">• PostMaster</a></li>
-					<li><a href="#">• Programa</a></li>
-					<li><a href="#">• Ponentes</a></li>
-					<li><a href="#">• Patrocinadores</a></li>
-					<li><a href="#">• Organizadores</a></li>
-					<li><a href="#">• Feria Tecnológica</a></li>
-				</ul>
-				<ul>
-					<li><a>CONTACTENOS</a></li>
-					<li><a href="#"><i class="fa fa-home"></i> Sede los granados, Avenida Miraflores S/N Tacna</a></li>
-					<li><a href="#"><i class="fa fa-envelope-o"></i> ciistacna@unjbg.edu.pe</a></li>
-					<li><a href="#"><i class="fa fa-phone"></i> 947 486 484</a></li>
-				</ul>
-			</nav>
-			
-		</div>
-	</footer>
+	<?php require(ROOT . '/' . PATH_VIEWS . 'foot.php'); ?>	
 
 	<script src="src/js/jquery-1.10.1.min.js"></script>
 	<script src="src/js/js"></script>

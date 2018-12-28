@@ -1,8 +1,8 @@
 <?php 
-	require ROOT . "/CIIS-2019/app/models/inicio/inicioModel.php";
+	require ROOT . "/CIIS-2019/app/models/speakers/speakersModel.php";
 	require ROOT . "/CIIS-2019/system/libs/Session.php";
 
-	class inicioController extends Controller
+	class speakersController extends Controller
 	{
 
 		//private $model; 
@@ -18,10 +18,15 @@
 			$this->CargarDatos();
 		}
 
+		public function salir(){
+			$this->session->close();
+			header("Location: /CIIS-2019/login");
+		}
+
 		public function CargarDatos()
 		{
-			
-			$this->render(__CLASS__);
+			$parametro = array('error_message' => '48');
+			$this->render(__CLASS__, $parametro);
 		}
 		
 	}
