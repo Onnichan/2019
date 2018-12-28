@@ -87,7 +87,8 @@
 			transform: translateY(-50%)
 		}
 	</style>
-
+	
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>XX Congreso Internacional de Informatica y Sistemas 2019</title>
@@ -107,11 +108,10 @@
 	
 	<link rel="stylesheet" type="text/css" href="src/css/main.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/font-awesome.min.css">
-
-	<script type="text/javascript" charset="UTF-8" src="src/js/common.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/js/util.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/js/map.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/js/marker.js"></script>
+	
+	<script type="text/javascript" charset="UTF-8" src="src/QuotaService"></script>
+	
+	
 	<style type="text/css">
 		.gm-style {
 			font: 400 11px Roboto, Arial, sans-serif;
@@ -122,10 +122,6 @@
 			max-width: none;
 		}
 	</style>
-	<script type="text/javascript" charset="UTF-8" src="src/js/onion.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/js/stats.js"></script>
-	
-	<script type="text/javascript" charset="UTF-8" src="src/js/controls.js"></script>
 	
 </head>
 
