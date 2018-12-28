@@ -218,7 +218,7 @@
 
 		<section id="past">
 			<div class="wrapper">
-				<h2>Nuestra edición de 2019...</h2>
+				<h2>En la edición del año 2019...</h2>
 				<div id="content">
 					<article id="video">
 						<div class="videoWrapper">
