@@ -19,7 +19,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Talleres de verano - CIIS">
     <meta property="og:description" content="Conoce el programa de T3chFest. Feria de informática y nuevas tecnologías. 1 y 2 marzo 2018. Auditorio Universidad Carlos III de Madrid.">
-    <meta property="og:image" content="https://t3chfest.uc3m.es/2018/static/assets/media/social/t3f2018-social.jpg?q=1503968963">
+    <meta property="og:image" content="">
     <meta property="og:image:height" content="630">
     <meta property="og:image:width" content="1200">
 

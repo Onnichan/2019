@@ -1,5 +1,6 @@
 # Permite reescribir las peticiones de URL
 RewriteEngine On
+RewriteRule ^courses/name /name [L]
 
 # Si el archivo y la carpeta no existen hacer siguiente reescritura
 RewriteCond %{REQUEST_FILENAME} !-d

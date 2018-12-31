@@ -110,7 +110,7 @@
 	<link rel="stylesheet" type="text/css" href="src/css/font-awesome.min.css">
 	
 	<script type="text/javascript" charset="UTF-8" src="src/QuotaService"></script>
-	
+	<script type="text/javascript" charset="UTF-8" src="src/QuotaService"></script>
 	
 	<style type="text/css">
 		.gm-style {
