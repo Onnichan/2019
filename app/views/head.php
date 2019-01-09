@@ -1,5 +1,8 @@
-<nav id="main-nav">
-		<a href="<?= FOLDER_PATH . '/home' ?>" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="ciistacna"></a>
+<nav id="main-nav" style="scroll-behavior: smooth;">
+		
+
+		<a href="<?= FOLDER_PATH . '/' ?>" id="logo"><img src="src/assets/media/image/ciistacna.svg" alt="ciistacna"></a>
+		<!-- <a href="<?= FOLDER_PATH . '/' ?>" id="logo"><img src="src/assets/media/image/ciisxxv2.svg" alt="ciistacna"></a> -->
 
 		<input type="checkbox" id="responsive-status-menu" name="resposive-status-menu">
 		<label for="responsive-status-menu" class="responsive-toggle-menu">

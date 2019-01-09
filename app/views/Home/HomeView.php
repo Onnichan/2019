@@ -3,8 +3,8 @@
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(01)https:// -->
-<html lang="es">
+
+<html id="top" lang="es">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -87,17 +87,26 @@
 			transform: translateY(-50%)
 		}
 	</style>
-	
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>XX Congreso Internacional de Informatica y Sistemas 2019</title>
 	<meta name="keywords" content="CIISXX, ciisxx, postmaster, ciis turismo, feria tecnologica, tacna ciis, congreso internacional, concursos, conference, technology, university, universidad">
 	<meta name="description" content="El XX Congreso internacional de Informática y Sistemas brindando todo una gama de conocimiento con ponentes de la mejor excelencia 
-					posible de distintos países con distinto temas de la actualidad de la informatica, fecha del congreso Noviembre 2019.">
+					posible de distintos países con distinto temas de la actualidad de la informática, fecha del congreso Noviembre 2019.">
 
 	<script src="src/js/hm.js"></script>
 	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120253818-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-120253818-1');
+	</script>
+
 	<meta name="theme-color" content="#529CE0">
 	<meta name="msapplication-navbutton-color" content="#005DB2">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#005DB2">
@@ -105,13 +114,11 @@
 	<meta name="mobile-web-app-capable" content="yes">
 
 	<link rel="shortcut icon" href="src/assets/media/image/icon.png">
-	
+
 	<link rel="stylesheet" type="text/css" href="src/css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/main_2.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/font-awesome.min.css">
-	
-	<script type="text/javascript" charset="UTF-8" src="src/QuotaService"></script>
-	<script type="text/javascript" charset="UTF-8" src="src/QuotaService"></script>
-	
+
 	<style type="text/css">
 		.gm-style {
 			font: 400 11px Roboto, Arial, sans-serif;
@@ -122,55 +129,60 @@
 			max-width: none;
 		}
 	</style>
-	
+
 </head>
 
 <body style="">
-	
-	<?php require(ROOT . '/' . PATH_VIEWS . 'head.php'); ?>	
+
+	<?php require(ROOT . '/' . PATH_VIEWS . 'head.php'); ?>
 
 	<header id="home">
+		
 		<div class="wrapper">
-			<img src="src/assets/media/image/ciisxx_color.svg" style="width: 50%" alt="T3chFest">
+			<img src="src/assets/media/image/ciisxx_color.svg" style="width: 30%; margin: 15px 15px;" alt="T3chFest">
 			<h1>noviembre 2019</h1>
 			<h2>Auditorio Universidad Jorge Basadre Grohmann</h2>
 		</div>
 		<article id="timeline">
 			<div id="items">
 				<a class="m15" href="<?= FOLDER_PATH . '/courses' ?>">
-					<p>14 de Enero 2019</p>
-					<h3>Talleres de verano</h3>
-					<i class="fa fa-circle-o"></i>
-				</a>
+		<p>14 de Enero 2019</p>
+		<h3>Talleres de verano</h3>
+		<i class="fa fa-circle-o"></i>
+		</a>
 
-				<a class="small m10" href="#">
-					<p>Próximamente</p>
-					<h3>Inscripsiones PostMaster</h3>
-					<i class="fa fa-circle-o"></i>
-				</a>
+		<a class="small m10">
+			<p>Próximamente</p>
+			<h3>Inscripsiones XVI PostMaster</h3>
+			<i class="fa fa-circle-o"></i>
+		</a>
 
-				<a class="m10" href="#">
-					<p>Próximamente</p>
-					<h3>PostMaster</h3>
-					<i class="fa fa-circle-o"></i>
-				</a>
+		<a class="m10">
+			<p>Próximamente</p>
+			<h3>XVI PostMaster</h3>
+			<i class="fa fa-circle-o"></i>
+		</a>
 
-				<a class="small m15" href="#">
-					<p>Próximamente</p>
-					<h3>Inscripciones CIIS XX</h3>
-					<i class="fa fa-circle-o"></i>
-				</a>
+		<a class="small m15">
+			<p>Próximamente</p>
+			<h3>Inscripciones CIIS XX</h3>
+			<i class="fa fa-circle-o"></i>
+		</a>
 
-				<a class="m5" href="#" target="_blank">
-					<p>noviembre 2019</p>
-					<h3>CIIS XX y Eventos</h3>
-					<i class="fa fa-circle-o"></i>
-				</a>
-			</div>
-			<div id="progress">
-				<div id="fill" style="width: 25%;"></div>
-			</div>
+		<a class="m5" target="_blank">
+			<p>noviembre 2019</p>
+			<h3>CIIS XX y Eventos</h3>
+			<i class="fa fa-circle-o"></i>
+		</a>
+		</div>
+		<div id="progress">
+			<div id="fill" style="width: 13%;"></div>
+		</div>
 		</article>
+		
+
+		
+
 	</header>
 
 	<main id="home">
@@ -216,13 +228,132 @@
 			}
 		?>
 
+		<section>
+			<div id="anc_headline" class="bg-gray-translucent next-to-cover">
+				<div class="container-outer">
+					<div class="container">
+						<div class="soft-double-ends">
+							<h2 class="heading-block ff-thin text-huge fc-inverse text-center text-shadow soft-top flush-bottom bd-inverse-top text-normal">
+								Titulares
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="board-headline bg-gray-translucent equalize clearfix">
+				<div class="board-headline-container eq" style="visibility: visible">
+					<a href="<?= FOLDER_PATH . '/courses' ?>" class="board-headline-anchor"></a>
+					<div class="board-headline-bg">
+						<div style="background-image: url(src/assets/media/image/titular1.png);"></div>
+					</div>
+					<div class="board-headline-base">
+						<div class="board-headline-base-inner">
+							<div class="board-headline-title">
+								<h2>
+									Talleres de verano 2019 </h2>
+							</div>
+							<div class="board-headline-summary">
+								<time class="posted-date"> Inicio de clases: Lun, 14 Enero 2019</time>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="board-headline-container eq" style="visibility: visible">
+					<a class="board-headline-anchor"></a>
+					<div class="board-headline-bg">
+						<div style="background-image: url(src/assets/media/image/titular2.jpg);"></div>
+					</div>
+					<div class="board-headline-base">
+						<div class="board-headline-base-inner">
+							<div class="board-headline-title">
+								<h2>
+									XX Congreso Internacional en Informatica y Sistemas </h2>
+							</div>
+							<div class="board-headline-summary">
+								<time class="posted-date"> Noviembre 2019</time>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="anc_topics" class="bg-gray-translucent">
+				<div class="container-outer">
+					<div class="container">
+
+						<div class="soft-double-ends">
+							<h2 class="heading-block ff-thin text-huge fc-inverse text-center text-shadow soft-top bd-inverse-top text-normal">
+								Tópicos
+							</h2>
+						</div>
+
+						<div class="row row-tighten equalize push-double-bottom">
+							<div class="col-sm-4">
+								<div class="board board-filled push-half-bottom eq" style="visibility: visible; height: 354px;">
+									<div class="board-image board-image-panel js-middle">
+										<a href="<?= FOLDER_PATH . '/courses' ?>">
+											<img width="360" height="270" src="src/assets/media/image/1.jpg"
+											 class="img-responsive wp-post-image" alt=""
+											 sizes="(max-width: 360px) 100vw, 360px"> </a>
+									</div>
+									<div class="board-drawer soft">
+										<h5><a class="topic-letter" href="<?= FOLDER_PATH . '/courses' ?>">El 3 de Enero empiezan las inscripciones de los talleres 2019 hasta el 18 de Enero</a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="board board-filled push-half-bottom eq" style="visibility: visible; height: 354px;">
+									<div class="board-image board-image-panel js-middle">
+										<a href="<?= FOLDER_PATH . '/courses' ?>" target="_blank">
+											<img width="360" height="270" src="src/assets/media/image/2.jpg" class="img-responsive wp-post-image"
+											 alt=""
+											 sizes="(max-width: 360px) 100vw, 360px"> </a>
+									</div>
+									<div class="board-drawer soft">
+										<h5><a class="topic-letter" href="<?= FOLDER_PATH . '/courses' ?>" target="_blank">Inicio de clases, 14 de Enero </a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="board board-filled push-half-bottom eq" style="visibility: visible; height: 354px;">
+									<div class="board-image board-image-panel js-middle">
+										<a href="<?= FOLDER_PATH . '/courses' ?>">
+											<img width="360" height="270" src="src/assets/media/image/3.png" class="img-responsive wp-post-image"
+											 alt="" sizes="(max-width: 360px) 100vw, 360px"> </a>
+									</div>
+									<div class="board-drawer soft">
+										<h5><a class="topic-letter" href="<?= FOLDER_PATH . '/courses' ?>">Conoce todos los detalles de los talleres</a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="board board-filled push-half-bottom eq" style="visibility: visible; height: 354px;">
+									<div class="board-image board-image-panel js-middle">
+										<a>
+											<img width="360" height="270" src="src/assets/media/image/4.jpg" class="img-responsive wp-post-image"
+											 alt="" sizes="(max-width: 360px) 100vw, 360px"> </a>
+									</div>
+									<div class="board-drawer soft">
+										<h5><a class="topic-letter" >Evento próximo, XVI Postmaster</a></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 		<section id="past">
 			<div class="wrapper">
 				<h2>En la edición del año 2019...</h2>
 				<div id="content">
 					<article id="video">
 						<div class="videoWrapper">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/aS5bgHWPZdM" frameborder="0" allowfullscreen=""></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkGY17DTDw" frameborder="0" allowfullscreen=""></iframe>
 						</div>
 					</article>
 					<article id="video">
@@ -250,7 +381,7 @@
 							';
 						}
 					?>
-					
+
 				</div>
 			</div>
 		</section>
@@ -260,8 +391,9 @@
 				<h3>Entérate de todo</h3>
 				<p><a style="color:#fff;" target="_blank">Síguenos a nuestras redes sociales</a></p>
 				<ul>
-					<li><a href="https://www.flickr.com/photos/160684070@N02/albums" target="_blank" title="Flickr de CIIS XX"><i class="fa fa-flickr"></i></a></li>
-					<li><a href="#" target="_blank" title="Linkedin de CIIS XX"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.flickr.com/photos/160684070@N02/albums" target="_blank" title="Flickr de CIIS XX"><i
+							 class="fa fa-flickr"></i></a></li>
+					<!-- <li><a href="#" target="_blank" title="Linkedin de CIIS XX"><i class="fa fa-linkedin"></i></a></li> -->
 					<li><a href="https://www.instagram.com/xx_ciis" target="_blank" title="Instagram de CIIS XX"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="https://www.youtube.com/user/ciistacna" target="_blank" title="YouTube de CIIS XX"><i class="fa fa-youtube"></i></a></li>
 					<li><a href="https://www.facebook.com/ciistacna" target="_blank" title="Facebook de CIIS XX"><i class="fa fa-facebook-official"></i></a></li>
@@ -296,16 +428,19 @@
 
 		<section id="infoinscription">
 			<div class="wrapper">
-				<h3>Inscríbase al ciis xx</h3>
+				<h3>Inscríbete al ciis xx</h3>
 				<p>
 					<a style="color:#fff;" target="_blank">
 						Este evento comenzará en noviembre del 2019 <br>
-						para más información ingrese <a href="#">aquí</a> o llamenos al <i class="fa fa-phone"></i>+51 1234567894
+						para más información ingrese <a href="https://www.facebook.com/ciistacna/" style="color: #4A00E0;">aquí</a> o comuníquenos al <i class="fa fa-whatsapp"></i> +51 971243797
 					</a>
 				</p>
 			</div>
 		</section>
 
+		<a class="page-top bd-light-top bg-white top" href="<?= FOLDER_PATH . '/#top' ?>">Page Top</a>
+
+		<!--
 		<section id="location">
 			<div id="auditorium">
 				<a id="info" href="#">
@@ -313,16 +448,52 @@
 					<p class="address">Avenida Miraflores, S/N <br> 23000 (Tacna-Perú)</p>
 				</a>
 			</div>
+			
 			<div id="map" style="position: relative; overflow: hidden;"></div>
 		</section>
+		-->
 	</main>
 
 
-	<?php require(ROOT . '/' . PATH_VIEWS . 'foot.php'); ?>	
+	<?php require(ROOT . '/' . PATH_VIEWS . 'foot.php'); ?>
 
 	<script src="src/js/jquery-1.10.1.min.js"></script>
-	<script src="src/js/js"></script>
+
 	<script src="src/js/home.js"></script>
+
+
+	<!--
+
+	<script>
+	function initMap() {
+  		var mapProp = {
+    		center: new google.maps.LatLng(-18.025159, -70.250537),
+    		zoom: 17,
+    		scrollwheel: false,
+		    navigationControl: false,
+		    mapTypeControl: false,
+		    scaleControl: false,
+		    disableDefaultUI: true,
+		    mapTypeId: google.maps.MapTypeId.ROADMAP
+  		};
+  		var map = new google.maps.Map(document.getElementById('map'),mapProp);
+
+  		map.set('styles', mapStyles)
+
+  		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(-18.025159, -70.250537),
+			draggable: false,
+			map: map
+		});
+	}
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0ynwLPUoD7v6udQxSpYNhDJGzAJywMec&callback=initMap"
+    async defer></script>
+
+	</script>
+
+	-->
+
 </body>
 
 </html>
