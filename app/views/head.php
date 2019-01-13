@@ -11,8 +11,12 @@
 
 		<div class="responsive-menu">
 			<ul class="menu">
-				<li class="item"><a href="#">Programa</a></li>
-				<li class="item"><a href="#">Ponentes</a></li>
+				<li class="item"><a href="<?= FOLDER_PATH . '/courses' ?>">Programa de Talleres</a></li>
+
+				<?php 
+				
+				/*
+					<li class="item"><a href="#">Ponentes</a></li>
 				<li class="item"><a href="#">Patrocinadores</a></li>
 				<li class="item with-submenu">
 					<a href="#">Eventos</a>
@@ -24,6 +28,16 @@
 					</ul>
 				</li>
 				<li class="item"><a href="#">Organizadores</a></li>
+				
+				*/
+				
+				?>
+				<li class="item with-submenu">
+					<a href="#">Eventos Anteriores</a>
+					<ul class="submenu">
+						<li class="subitem"><a href="" style="width: 190px;">XIX CIIS</a></li>
+					</ul>
+				</li>
 				
 			</ul>
 

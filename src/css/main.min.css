@@ -1172,6 +1172,10 @@ main#home section#location div#map {
     }
 }
 
+::selection {
+    background: #aa005e;
+  }
+
 main#localizacion section#intro {
     margin: 40px 0 10px
 }

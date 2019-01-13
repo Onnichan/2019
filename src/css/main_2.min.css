@@ -25,10 +25,6 @@
   display: table;
 }
 
-::selection {
-  background: #7303c0;
-}
-
 .container:after {
   clear: both;
 }
@@ -1042,4 +1038,3 @@ div[class^='col-'] {
   color: #595959;
   text-decoration: none;
 }
-
