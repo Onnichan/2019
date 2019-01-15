@@ -11,11 +11,11 @@
 	define('PATH_CONTROLLERS', 'app/controllers/');
 
 	//define('PATH_VIEWS','app/views');
-	define('PATH_VIEWS', 'CIIS-2019/app/views/');
+	define('PATH_VIEWS', 'ciistacna.com/app/views/');
 	define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 	//Para el nombre del folder principal
-	define('FOLDER_PATH','/CIIS-2019');
+	define('FOLDER_PATH','/ciistacna.com');
 
 	
 	define('LIBS_ROUTE', ROOT . FOLDER_PATH . '/system/libs/');
@@ -23,10 +23,10 @@
 	define('HELPER_PATH', 'system/helper/');
 
 	//Para la BD
-	define('HOST', 'localhost');
-	define('USER', 'root');
+	define('HOST', '');
+	define('USER', '');
 	define('PASS', '');
-	define('DB', 'bd_ciisxx');
+	define('DB', '');
 
 	define('ERROR_REPORTING_LEVEL', -1);
 ?>

@@ -1,6 +1,6 @@
 <?php 
-	require ROOT . "/CIIS-2019/app/models/courses/coursesModel.php";
-	require ROOT . "/CIIS-2019/system/libs/Session.php";
+	require ROOT . FOLDER_PATH . "/app/models/courses/coursesModel.php";
+	require ROOT . FOLDER_PATH . "/system/libs/Session.php";
 
 	class coursesController extends Controller
 	{
@@ -25,7 +25,7 @@
 
 		public function salir(){
 			
-			header("Location: /CIIS-2019/");
+			header("Location: " . FOLDER_PATH . "/");
 		}
 	}
 

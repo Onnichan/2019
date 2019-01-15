@@ -1,6 +1,6 @@
 <?php 
-	require ROOT . "/CIIS-2019/app/models/login/loginModel.php";
-	require ROOT . "/CIIS-2019/system/libs/Session.php";
+	require ROOT . FOLDER_PATH . "/app/models/login/loginModel.php";
+	require ROOT . FOLDER_PATH . "/system/libs/Session.php";
 
 	class loginController extends Controller
 	{
@@ -26,17 +26,17 @@
 			else{
 				$parametro = $this->model->Login($param['nombre']);
 				if(empty($parametro)){
-					header("Location: /CIIS-2019/login");
+					header("Location: " . FOLDER_PATH . "/login");
 					$this->renderErrorMessage("*El usuario no existe");
 				}
 				else{
 					if($param['password'] != $parametro['clave_organizador']){
-						header("Location: /CIIS-2019/login");
+						header("Location: " . FOLDER_PATH . "/login");
 						$this->renderErrorMessage("*La contraseña es incorrecta");
 					}
 					else{
 						$this->session->add('usuario', $param['nombre']);
-						header("Location: /CIIS-2019/inicio");
+						header("Location: " . FOLDER_PATH . "/inicio");
 					}
 				}
 			}
@@ -44,7 +44,7 @@
 
 		public function salir(){
 			$this->session->close();
-			header("Location: /CIIS-2019/");
+			header("Location: " . FOLDER_PATH . "/");
 		}
 
 		public function VerificarParametros($param)

@@ -12,7 +12,7 @@ $metodo = $router->getMethod();
 $param = $router->getParam();
 
 if(!ValidateURI::ValidateController($controlador)){
-	$controlador = 'ErrorPage';
+	$controlador = 'Home';
 }
 
 require PATH_CONTROLLERS."{$controlador}/{$controlador}Controller.php";

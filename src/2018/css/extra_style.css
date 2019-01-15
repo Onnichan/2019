@@ -1,0 +1,200 @@
+.a_small{
+    transition: transform .3s;
+}
+.a_small:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+.a_title{
+    transition: transform .4s;
+}
+.a_title:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); 
+}
+.a_inversion{
+    transition: transform .4s;
+}
+.a_inversion:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+ .f_time {
+    transition: transform .3s;
+ }
+.f_time:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+.Blurb:hover .Blurb__hoverText,.nav-tabs>li>a h2 {
+    color:#000af9
+}
+
+.text-white,.text-white p,.text-white a,.white,.white p,.white a {
+    color:#ffffff !important;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*responsive ponentes*/
+.icono-bandera {
+  width: 20%;
+}
+
+.height-200 {
+    height: 200px;
+}
+.height-120{
+    height: 120px;
+}
+
+.taller-ciis {
+  height: auto !important;
+}
+
+.ponente-ciis {
+  height: auto !important;
+}
+
+.height_img_ponente {
+    height: 150px;
+    width: auto !important;
+}
+
+.taller_titulo{
+    height: auto;
+}
+
+.taller_docente{
+    height: auto;
+}
+
+@media (min-width: 370px) {
+    .ponente-ciis {
+    height: auto !important;
+    }
+    .height_img_ponente {
+        height: 180px;
+        width: auto !important;
+    }
+}
+
+@media (min-width: 435px) {
+    .ponente-ciis {
+    height: auto !important;
+    }
+    .height_img_ponente {
+        height: 200px;
+        width: auto !important;
+    }
+}
+
+@media (min-width: 536px) {
+    .ponente-ciis {
+    height: auto !important;
+    }
+    .height_img_ponente {
+        height: 250px;
+        width: auto !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .ponente-ciis {
+    height: auto !important;
+    }
+    .height_img_ponente {
+        height: 260px;
+        width: auto !important;
+    }
+}
+@media (min-width: 768px) {
+    .ponente-ciis {
+    height: 355px !important;
+    }
+    .height_img_ponente {
+        height: 190px;
+        width: auto !important;
+    }
+    .mb-md-name {
+        margin-bottom: 2.25rem !important;
+    }
+    .taller-ciis {
+    height: 540px !important;
+    } 
+    .taller_titulo{
+        height: 85px;
+    }
+    .taller_docente{
+        height: 30px;
+    }
+    
+}
+@media (min-width: 992px) {
+    .ponente-ciis {
+    height: 365px !important;
+    }
+    .height_img_ponente {
+        height: 180px;
+        width: auto !important;
+    }
+    .mb-lg-name {
+        margin-bottom: 2.25rem !important;
+    }
+    .mb-lg-name-none {
+        margin-bottom: 0px !important;
+    }
+    .taller-ciis {
+        height: 510px !important;
+    }
+    .taller_titulo{
+        height: 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ponente-ciis {
+    height: 340px !important;
+    }
+    .height_img_ponente {
+        height: 220px;
+        width: auto !important;
+    }
+    .mb-xl-name {
+        margin-bottom: 2.25rem !important;
+    }
+}
+/*fin responsirve ponentes*/
+
+.borde_feria {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.tabla{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.55);
+}
+.fila_tabla{
+    text-align: left;
+    vertical-align: top;
+}
+.columna_table{
+    width: 50%;
+}

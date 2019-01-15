@@ -106,6 +106,7 @@
 	gtag('config', 'UA-120253818-1');
 	</script>
 
+	
 	<meta name="theme-color" content="#529CE0">
 	<meta name="msapplication-navbutton-color" content="#005DB2">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#005DB2">
@@ -175,7 +176,7 @@
 		</a>
 		</div>
 		<div id="progress">
-			<div id="fill" style="width: 13%;"></div>
+			<div id="fill" style="width: 25%;"></div>
 		</div>
 		</article>
 		

@@ -68,7 +68,7 @@
                 <p>Es preciso señalar que los talleres tienen un precio económico y están dirigidos 
                 a estudiantes, profesionales y público en general.</p>
                 <p>Las inscripciones e informes se vienen realizando en el frontis de la Ciudad Universitaria, la 
-                información detallada se encuentra en la página de: <a href="https://www.facebook.com/ciistacna/"><i class="fa fa-facebook-official"></i> Facebook</a></p>
+                información detallada se encuentra en la página de: <a href="https://www.facebook.com/ciistacna/" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></p>
                 <p style="font-weight:bold;">En los horarios se dictarán los siguientes cursos:</p>
             </article>
         </section>

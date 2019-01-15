@@ -1,6 +1,6 @@
 <?php 
-	require ROOT . "/CIIS-2019/app/models/speakers/speakersModel.php";
-	require ROOT . "/CIIS-2019/system/libs/Session.php";
+	require ROOT . FOLDER_PATH . "/app/models/speakers/speakersModel.php";
+	require ROOT . FOLDER_PATH . "/system/libs/Session.php";
 
 	class speakersController extends Controller
 	{
@@ -20,7 +20,7 @@
 
 		public function salir(){
 			$this->session->close();
-			header("Location: /CIIS-2019/login");
+			header("Location: " . FOLDER_PATH . "/login");
 		}
 
 		public function CargarDatos()

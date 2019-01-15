@@ -6,8 +6,8 @@
 		
 		public function __construct()
 		{
-			$this->db = new mysqli(HOST, USER, PASS, DB);
-			$this->db->set_charset('utf8');
+			/* $this->db = new mysqli(HOST, USER, PASS, DB);
+			$this->db->set_charset('utf8'); */
 		} 
 	}                                                                                                                                                                                                                                                                                
 
