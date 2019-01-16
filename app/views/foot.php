@@ -28,6 +28,6 @@
 					<li><a href="#"><i class="fa fa-phone"></i> (052) 583000 Anexo 2005</a></li>
 				</ul>
 			</nav>
-			
+			<a href="#" id="arriba"><span class="fa fa-angle-up icon"></span></a>
 		</div>
 	</footer>

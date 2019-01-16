@@ -118,7 +118,7 @@
 	<link rel="stylesheet" type="text/css" href="src/css/main.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/main_2.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/font-awesome.min.css">
-
+	<link rel="stylesheet" type="text/css" href="src/css/main_3.min.css">
 	<style type="text/css">
 		.gm-style {
 			font: 400 11px Roboto, Arial, sans-serif;
@@ -446,9 +446,6 @@
 				</p>
 			</div>
 		</section>
-
-		<a class="page-top bd-light-top bg-white top" href="<?= FOLDER_PATH . '/#top' ?>">Page Top</a>
-
 		<!--
 		<section id="location">
 			<div id="auditorium">

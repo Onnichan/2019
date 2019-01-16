@@ -1,0 +1,33 @@
+#main-footer{
+  position: relative;
+}
+
+#main-footer .icon {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  right: 30px;
+  line-height: 45px;
+  text-align: center;
+  border: 0px solid white;
+  /* border-radius: 100%; */
+  background: linear-gradient(to right,#0C69C2,#1C8BF4);
+  font-size: 50px;
+  font-weight: 500;
+  color: #202020;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#main-footer .icon:hover{
+  background: linear-gradient(to left,#0C69C2,#1C8BF4);
+  opacity: .7;
+  /* transition: background .8s linear .2s; */
+  /* transition: all .1s; */
+}
+
+
