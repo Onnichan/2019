@@ -11,11 +11,11 @@
 	define('PATH_CONTROLLERS', 'app/controllers/');
 
 	//define('PATH_VIEWS','app/views');
-	define('PATH_VIEWS', 'ciistacna.com/app/views/');
+	define('PATH_VIEWS', '2019/app/views/');
 	define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 
 	//Para el nombre del folder principal
-	define('FOLDER_PATH','/ciistacna.com');
+	define('FOLDER_PATH','/2019');
 
 	
 	define('LIBS_ROUTE', ROOT . FOLDER_PATH . '/system/libs/');
